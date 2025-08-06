@@ -1,0 +1,5 @@
+function marathonDistance(arr) {
+  if (!Array.isArray(arr) || arr.length === 0) return false;
+  const totalMiles = arr.reduce((sum, val) => sum + Math.abs(val), 0);
+  return totalMiles === 25;
+}

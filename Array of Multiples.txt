@@ -1,0 +1,3 @@
+function arrayOfMultiples(num, length) {
+  return Array.from({ length }, (_, i) => num * (i + 1));
+}
